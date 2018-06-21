@@ -1,0 +1,18 @@
+
+
+/*FUENTES*/
+
+
+@font-face {
+/* requerido */
+    font-family: MyriadPro-Regular;
+/* requerido */
+    src: url('../fuentes/mP/MYRIADPRO-REGULAR.ttf','../fuentes/mP/MYRIADPRO-REGULAR.eot',
+ 	'../fuentes/mP/MYRIADPRO-REGULAR.OTF');
+ /* opcional */   
+    font-weight: weight;
+/* opcional */
+    font-style: style;
+
+}
+

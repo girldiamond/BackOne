@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Carolina Azofeifa" />
+        <meta name="description" content="Examen responsive"/>
+        <title>Contacto</title>        
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/font-face.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    </head>
+	<body>
+		<!-- content goes here -->
+		<header class="clearfix">
+			<div class="wrapper clearfix">
+				<div class="logoContent">
+				<p class="logo">Jade <span>HTML preprocessor</span></p>
+				</div> 
+				<nav class="clearfix">
+	    			<ul class="clearfix">
+	    				<li><a href="index.html">Index</a></li>
+	    				<li><a href="#">About</a></li>
+	    				<li><a href="#">Contact</a></li>
+	    			</ul>
+    			</nav>
+			</div>
+		</header><!-- header -->
+		<div class="container">
+			<div class="wrapper clearfix"> 
+				<div class="main">
+					<h1>Hipster Ipsum</h1>
+					<form action="#" name="contact" method="post">
+						<fieldset>
+							<div class="control-group">
+								<label for="name">Nombre:</label>
+			    				<input type="text" name="name" id="name" placeholder="Carolina " autofocus required >
+    						</div>
+    						<div class=".control-group divApellido" >
+								<label for="apellido" class="lblA">Apellido:</label>
+			    				<input type="text" name="apellido" id="apellido" placeholder="Azofeifa" autofocus required >
+    						</div>
+    						<div class="control-group">
+			    				<label for="email">Correo electrónico:</label>
+			    				<input type="email" name="email" id="email" placeholder="http://validator.w3.org/" required  pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">
+    						</div>
+    						<div class="control-group">
+								<label for="telefono">Teléfono:</label>
+			    				<input type="text" name="telefono" id="telefono" placeholder="2222-2222" autofocus required >
+    						</div>
+    						<label for="textarea">Mensaje:</label>
+    						<textarea name="comment" id="comment" required></textarea>
+							<div class="control-group submit">
+		    					<button type="submit" id="btnSubmit" class="btn" name="submit" value="submit">Enviar</button><!-- tiene qué ser un button o un tipo submit? -->
+		    				</div>
+
+						</fieldset>
+					</form>
+
+
+				</div><!--fin main -->
+			</div><!-- fin wrapper -->
+		</div><!-- fint container -->
+		<footer>
+			<div class="wrapper clearfix">
+				<p class="copyright">2014 copyright</p>
+				<nav class="clearfix">
+					<ul>
+		    			<li><a href="index.html">Index</a></li>
+		    			<li><a href="#">About</a></li>
+		    			<li><a href="#">Contact</a></li>
+		    		</ul>
+	    	   </nav>
+			</div>
+			
+		</footer>
+
+	
+	
+	</body>
+</html>
